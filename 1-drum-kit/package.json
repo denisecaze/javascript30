@@ -2,20 +2,15 @@
   "name": "1-drum-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [
-    "example",
-    "heroku"
-  ],
-  "author": "denise",
+  "author": "denise caze",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  },
-  "engines": {
-    "node": "4.1.1"
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   }
 }
